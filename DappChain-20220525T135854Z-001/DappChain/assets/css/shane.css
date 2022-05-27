@@ -1,0 +1,182 @@
+.pro-footer {
+    color: #fff;
+  }
+  
+  .pro-footer li {
+    padding: 5px 15px;
+  }
+  
+  
+  .pro-footer li a:hover {
+    color: white;
+  }
+  
+  .pro-footer .footer-title {
+    font-size: 40px;
+    font-weight: 400;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+  
+  }
+  
+  .footer-top {
+    padding: 40px 0;
+  }
+  
+  .footer-bottom {
+    padding: 20px 0;
+    border-top: 1px solid #fff;
+  }
+  
+  .social-icons i {
+    margin: 0 5px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .social__icons__2 i:hover {
+    color: #006cff;
+  }
+
+  .footer-socials {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-title-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-bottom{
+text-align: center;
+padding-bottom: 20px;
+  }
+
+  .social__icons__2 {
+    margin-top: 20px;
+  }
+
+  .social__icons__2 i {
+    margin: 0 2px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .nav-title-2 {
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+
+
+
+  .updates-description  h4, h5 {
+    margin: 10px;
+  }
+
+  
+  .updates-description h5 {
+ font-size: 16px;
+  }
+
+  .card-update-package:hover {
+   border-color: #006cff; 
+  }
+
+  .read-more:hover {
+  text-decoration: underline; 
+   }
+
+   .blog-banner {
+    border-radius: 5px;
+    width: 90%;
+  }
+  .blog-content {
+   padding: 30px;
+   color: #fff;
+   line-height: 30px;
+  }
+
+  .blog-content > h4 {
+    font-weight: 600;
+  }
+
+   .blog-img {
+     width: 90%;
+     margin: 20px;
+   }
+
+   
+ 
+
+
+   .blog-banner {
+    width: 100%;
+  
+  }
+  
+  .blog-banner img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  .section-title-blog {
+    margin-left: 14%;
+    padding: 2%;
+    color: #fff;
+    font-size: 25px;
+  }
+
+
+  .related-articles {
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media (max-width:600px) {
+.pro-max-width {
+  padding: 30px;
+}
+
+.social__icons__2 i {
+  font-size: 16px;
+  margin: 1px;
+}
+
+.social__icons__2 {
+  margin: 0 0 30px 0;
+}
+
+
+.ads-img img {
+width: 300px;
+}
+
+.pro-max-width{
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.content-title {
+  font-size: 40px;
+}
+
+.blog-banner {
+  width: 100%;
+}
+
+
+.blog-banner img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+} 
+
+
+/* gonna use fontawesome for the arrow icon, h1 isnt fixed yet, planning to put 3 small cards (row) in related articles, add author/date + their social media accs? */
